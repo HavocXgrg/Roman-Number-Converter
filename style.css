@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(29, 30, 58);
+    color: aliceblue;
+    
+}
+fieldset {
+    border: 2px solid white;
+    padding: 2rem;
+    height: 160px;
+    background-color: rgb(77, 83, 102);
+  }
+
+fieldset p {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.container h2{
+    color: aliceblue;
+    margin-bottom: 1rem;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#number{
+    width: 100%;
+    min-height: 40px;
+    background-color: rgb(23, 20, 43);
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+}
+#convert-btn{
+    margin-top: 1.5rem;
+    width: 100%;
+    color: black;
+    background-color: rgb(244, 205, 64);
+    min-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+#output{
+    margin-top: 32px;
+    border: 2px solid white;
+    padding: 2rem;
+    height: 16px;
+    background-color: rgb(77, 83, 102);
+}
